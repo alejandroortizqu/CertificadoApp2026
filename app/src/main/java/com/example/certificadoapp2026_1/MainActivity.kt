@@ -78,7 +78,7 @@ fun CertificatingCourse(
 
                     ),
                 contentDescription = null,
-                modifier = modifier.size(50.dp),
+                modifier = modifier.size(50.dp,50.dp),
 
                 )
 
@@ -92,7 +92,7 @@ fun CertificatingCourse(
 
                     ),
                 contentDescription = null,
-                modifier = modifier.size(50.dp),
+                modifier = modifier.size(50.dp,50.dp),
 
                 )
 
@@ -127,7 +127,7 @@ fun CertificatingCourse(
             modifier = modifier.height(10.dp)
         )
         Text(
-            text = "has succesfully completed $hours hours course on"
+            text = "has completed a $hours hours course on"
         )
         Text(
             text = course,
@@ -166,7 +166,7 @@ fun CertificatingCourse(
                     modifier = Modifier.size(90.dp)
                 )
                 Text(
-                    text = "Raúl Juárez García",
+                    text = "Raúl Juárez Gomez",
                     fontSize = 15.sp,
                     textAlign = TextAlign.Center
                 )
